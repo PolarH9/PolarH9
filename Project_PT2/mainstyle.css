@@ -1,0 +1,106 @@
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #292A2C;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Press Start 2P";
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  .main {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .main section {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 33%;
+    padding: 2px;
+  }
+  .main img {
+    max-width: 100%;	
+    width: auto;
+  }
+/* CSS Body */
+body {
+    margin:0;
+    background-color: #0E757F;
+    color: 	#363636;
+    font-family: sans-serif;
+}
+.main h2 {
+  font-family: "Play";
+}
+.main h3 {
+  font-size: 30px;
+}
+.deal h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.deal h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 730px;
+  margin-right: auto;
+}
+.deal p {
+  font-size: 30px;
+  padding-left: 40px;
+}
+.deal_image {
+  padding-left: 580px;
+}
+.main section{
+  font-size: 30px;
+
+}
+/* CSS Header */
+header {
+    margin-top: 45px;
+    background-image: url(pictures/hero_image.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Play";
+}
+/* CSS Footer */
+footer {
+    background-color: #292A2C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
